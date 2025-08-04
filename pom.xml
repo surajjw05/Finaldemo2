@@ -8,8 +8,8 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.4</version> <!-- use stable version -->
-    <relativePath/> <!-- lookup parent from repository -->
+    <version>3.1.4</version>
+    <relativePath/>
   </parent>
 
   <groupId>com.example</groupId>
@@ -23,19 +23,19 @@
   </properties>
 
   <dependencies>
-    <!-- Core Spring Boot Starter -->
+    <!-- Spring Boot core -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
     </dependency>
 
-    <!-- Web Starter for REST APIs -->
+    <!-- ✅ Added: Required for @RestController and @GetMapping -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
-    <!-- Spring Boot Testing -->
+    <!-- Testing -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
